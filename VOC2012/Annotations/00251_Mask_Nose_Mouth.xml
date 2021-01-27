@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mask-images</folder>
+	<filename>00251_Mask_Nose_Mouth.jpg</filename>
+	<path>C:\Users\juanj\OneDrive\Desktop\VOC2012\JPEGImages\00251_Mask_Nose_Mouth.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>227</xmin>
+			<ymin>388</ymin>
+			<xmax>836</xmax>
+			<ymax>989</ymax>
+		</bndbox>
+	</object>
+</annotation>

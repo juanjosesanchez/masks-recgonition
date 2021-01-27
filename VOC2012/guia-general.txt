@@ -1,0 +1,23 @@
+
+
+
+conda activate yolov3-tf2-gpu
+
+cd C:\Users\juanj\OneDrive\Desktop\yolov3-tf2
+python tools/voc2012.py  --data_dir C:\Users\juanj\OneDrive\Desktop\VOC2012\ --split train --output_file=C:\Users\juanj\OneDrive\Desktop\VOC2012\tfrecord\masks_train.tfrecord --classes=C:\Users\juanj\OneDrive\Desktop\VOC2012\data\voc2012.names 
+python tools/voc2012.py  --data_dir C:\Users\juanj\OneDrive\Desktop\VOC2012\ --split val   --output_file=C:\Users\juanj\OneDrive\Desktop\VOC2012\tfrecord\masks_val.tfrecord   --classes=C:\Users\juanj\OneDrive\Desktop\VOC2012\data\voc2012.names 
+
+python train.py --batch_size 8 --dataset C:\Users\juanj\OneDrive\Desktop\VOC2012\tfrecord\masks_train.tfrecord --val_dataset C:\Users\juanj\OneDrive\Desktop\VOC2012\tfrecord\masks_val.tfrecord --epochs 2  --classes=C:\Users\juanj\OneDrive\Desktop\VOC2012\data\voc2012.names --num_classes=1
+
+#current
+python train.py --batch_size=8 --dataset C:\Users\juanj\OneDrive\Desktop\VOC2012\tfrecord\masks_train.tfrecord  --val_dataset C:\Users\juanj\OneDrive\Desktop\VOC2012\tfrecord\masks_val.tfrecord  --classes=C:\Users\juanj\OneDrive\Desktop\VOC2012\data\voc2012.names  --num_classes=1 --epochs=7
+
+# milton's approach
+python train.py --batch_size=8 --dataset C:\Users\juanj\OneDrive\Desktop\VOC2012\tfrecord\masks_train.tfrecord  --val_dataset C:\Users\juanj\OneDrive\Desktop\VOC2012\tfrecord\masks_val.tfrecord  --classes=C:\Users\juanj\OneDrive\Desktop\VOC2012\data\voc2012.names  --weights_num_classes=1 --size=256 --mode=eager_tf --epochs=7
+python detect.py --image ./data/mask.jpg --weights ./checkpoints/yolov3_train_7.tf  --classes=C:\Users\juanj\OneDrive\Desktop\VOC2012\data\voc2012.names
+
+python detect_video.py --weights ./checkpoints/yolov3_train_6.tf
+python detect.py --image ./data/mask.jpg  --weights  ./checkpoints/yolov3_train_6.tf
+
+python detect.py --image ./data/mask.jpg --weights ./checkpoints/yolov3_train_7.tf  --classes=C:\Users\juanj\OneDrive\Desktop\VOC2012\data\voc2012.names
+python detect_video.py --video 0 --weights ./checkpoints/yolov3_train_2.tf  --classes=C:\Users\juanj\OneDrive\Desktop\VOC2012\data\voc2012.names

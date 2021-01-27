@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>49055_Mask.jpg</filename>
+	<path>C:\Users\juanj\OneDrive\Desktop\VOC2012\JPEGImages\49055_Mask.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>159</xmin>
+			<ymin>562</ymin>
+			<xmax>758</xmax>
+			<ymax>1007</ymax>
+		</bndbox>
+	</object>
+</annotation>
