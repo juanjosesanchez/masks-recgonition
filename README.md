@@ -35,9 +35,9 @@ python detect_video.py --weights ./checkpoints/yolov3_train_6.tf
 
 | Epochs |                          Example 1                           | Example 2 |
 | :----: | :----------------------------------------------------------: | :-------: |
-|   15   | ![output15](/Users/juansanchez/wkspaces/masks-recgonition/examples/output15.jpg) |           |
-|   68   | ![output68](/Users/juansanchez/wkspaces/masks-recgonition/examples/output68.jpg) |           |
-|   75   | ![output75](/Users/juansanchez/wkspaces/masks-recgonition/examples/output75.jpg) |           |
-|   90   | ![output90](/Users/juansanchez/wkspaces/masks-recgonition/examples/output90.jpg) |           |
-|   99   | ![output99](/Users/juansanchez/wkspaces/masks-recgonition/examples/output99.jpg) |           |
+|   15   | ![output15](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output15.jpg) |           |
+|   68   | ![output68](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output68.jpg) |           |
+|   75   | ![output75](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output75.jpg) |           |
+|   90   | ![output90](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output90.jpg) |           |
+|   99   | ![output99](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output99.jpg) |           |
 
