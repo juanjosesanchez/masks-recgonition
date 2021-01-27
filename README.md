@@ -25,10 +25,10 @@ python tools/voc2012.py  --data_dir path\to\VOC2012\ --split val   --output_file
 python train.py --batch_size=8 --dataset path\to\VOC2012\tfrecord\masks_train.tfrecord  --val_dataset path\to\VOC2012\tfrecord\masks_val.tfrecord  --classes=path\to\VOC2012\data\voc2012.names  --weights_num_classes=1 --size=256 --mode=eager_tf --epochs=250
 
 # codigo para probar imagenes
-python detect.py --image ./data/mask.jpg --weights ./checkpoints/yolov3_train_7.tf  --classes=path\to\VOC2012\data\voc2012.names
+python detect.py --image ./data/mask.jpg --weights ./checkpoints/yolov3_train_150.tf  --classes=path\to\VOC2012\data\voc2012.names
 
 # codigo para probar video
-python detect_video.py --weights ./checkpoints/yolov3_train_6.tf
+python detect_video.py --weights ./checkpoints/yolov3_train_150.tf
 ```
 
 ## Resultados
