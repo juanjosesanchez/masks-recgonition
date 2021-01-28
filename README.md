@@ -42,5 +42,5 @@ python detect_video.py --weights ./checkpoints/yolov3_train_150.tf
 |  150   | ![output150](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output150.jpg)[training in progress] | ![output150](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output2-150.jpg) [training in progress] |
 |  180   | ![output180](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output180.jpg)[training in progress] | ![output180](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output2-180.jpg) [training in progress] |
 |  200   | ![output200](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output200.jpg)[training in progress] | ![output200](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output2-200.jpg)[training in progress] |
-|  250   | ![output250](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output250.jpg)[training in progress] | ![output250](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output2-250.jpg)[training in progress] |
+|  240   | ![output250](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output250.jpg)[training in progress] | ![output250](https://github.com/juanjosesanchez/masks-recgonition/blob/main/examples/output2-250.jpg)[training in progress] |
 
